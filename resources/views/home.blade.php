@@ -43,7 +43,7 @@
   {{-- # jumbotron --}}
   <section id="jumbo"></section>
 
-  {{-- TODO main --}}
+  {{-- # main --}}
   <main></main>
 
   {{-- #footer --}}
@@ -106,7 +106,7 @@
     {{-- * footer bottom --}}
     <section id="footer-bottom">
       <div class="container">
-        <button>sign-up now!</button>
+        <button class="footer-btn">sign-up now!</button>
         <div class="footer-links">
           <a href="#">follow us</a>
           <a href="#"><img src="{{ Vite::asset('resources/images/footer-facebook.png') }}" alt="fb"></a>

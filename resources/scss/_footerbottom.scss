@@ -6,7 +6,7 @@
 .container {
     @include flex("between", "center");
 
-    button {
+    .footer-btn {
         background-color: transparent;
         color: #fff;
         text-transform: uppercase;
