@@ -11,6 +11,7 @@
     @vite('resources/js/app.js')
 </head>
 <body>
+    {{-- # header --}}
     <header class="container">
         <figure>
             <a href="{{url('/')}}">
@@ -30,6 +31,9 @@
             <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
     </header>
+
+    {{-- # jumbotron --}}
+    <section id="jumbo"></section>
     
 </body>
 </html>
